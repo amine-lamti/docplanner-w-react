@@ -1,0 +1,505 @@
+.App {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(99, 96, 96, 0.2);
+    padding: 12px 20px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.docgroup {
+    font-size: 30px;
+}
+
+span {
+    color: #00CCB1;
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+}
+
+a {
+    color: #ABABAB;
+    text-decoration: none;
+}
+
+.colr {
+    color: #00CCB1;
+}
+
+.part1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    z-index: 9999999;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.intro-title {
+    color: #00CCB1;
+}
+
+.intro-logo {
+    width: 50px;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.para {
+    width: 48%;
+    line-height: 30px;
+}
+
+.select-service {
+    padding: 6px 8px;
+    border-radius: 5px;
+    min-width: 180px;
+    height: 50px;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.patients {
+    background-color: #00CCB1;
+    padding: 22px 40px 0px;
+    width: 45%;
+}
+
+.doctors {
+    background-color: #3D83DF;
+    padding: 22px 40px 0px;
+    width: 45%;
+}
+
+.img-service {
+    width: 380px;
+}
+
+.green {
+    color: #00CCB1;
+}
+
+.statistiques {
+    background-color: #D6F6F6;
+    padding-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    background-color: #D6F6F6;
+    width: 80%;
+    margin: 0px auto;
+    /* height: 500px; */
+}
+
+.stats1 {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.office {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.offices__header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.offices__slider {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.office:hover {
+    box-shadow: 0px 18px 75px -29px rgba(0, 0, 0, 0.75);
+}
+
+.office__desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #1662C6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.btnImg {
+    display: flex
+}
+
+.brands-logos {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 0;
+}
+
+.global {
+    width: 20%;
+}
+
+svg {
+    margin-left: 20px;
+    width: 150px;
+}
+
+svg:hover {
+    fill: #00CCB1;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+svg {
+    fill: grey;
+}
+
+.link {
+    color: blue;
+}
+
+.span {
+    color: grey;
+    text-align: center;
+}
+
+.stats1 {
+    width: 200px;
+}
+
+.all-stats {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.test {
+    transform: translateY(20px);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(99, 96, 96, 0.2);
+    padding: 12px 20px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.docgroup {
+    font-size: 30px;
+}
+
+span {
+    color: #00CCB1;
+    margin: 10px;
+}
+
+.logo {
+    display: flex;
+}
+
+a {
+    color: #ABABAB;
+    text-decoration: none;
+}
+
+.colr {
+    color: #00CCB1;
+}
+
+.part1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    z-index: 9999999;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.intro-title {
+    color: #00CCB1;
+}
+
+.intro-logo {
+    width: 50px;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.para {
+    width: 48%;
+    line-height: 30px;
+}
+
+.select-service {
+    padding: 6px 8px;
+    border-radius: 5px;
+    min-width: 180px;
+    height: 50px;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.patients {
+    background-color: #00CCB1;
+    padding: 22px 40px 0px;
+    width: 45%;
+}
+
+.doctors {
+    background-color: #3D83DF;
+    padding: 22px 40px 0px;
+    width: 45%;
+}
+
+.img-service {
+    width: 380px;
+}
+
+.green {
+    color: #00CCB1;
+}
+
+.statistiques {
+    background-color: #D6F6F6;
+    padding-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    background-color: #D6F6F6;
+    width: 80%;
+    margin: 0px auto;
+    /* height: 500px; */
+}
+
+.stats1 {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.office {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.offices__header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.offices__slider {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.office:hover {
+    box-shadow: 0px 18px 75px -29px rgba(0, 0, 0, 0.75);
+}
+
+.office__desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn {
+    background-color: #1662C6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.btnImg {
+    display: flex
+}
+
+.brands-logos {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 0;
+}
+
+.global {
+    width: 20%;
+}
+
+svg {
+    margin-left: 20px;
+    width: 150px;
+}
+
+svg:hover {
+    fill: #00CCB1;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+svg {
+    fill: grey;
+}
+
+.link {
+    color: blue;
+}
+
+.span {
+    color: grey;
+    text-align: center;
+}
+
+.stats1 {
+    width: 200px;
+}
+
+.all-stats {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.test {
+    transform: translateY(20px);
+}
+
+.toot {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
