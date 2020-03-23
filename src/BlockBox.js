@@ -1,7 +1,7 @@
 import React from 'react'
 
 function BlockBox(props){
-    return(<div className="statistiques all-stats">
+    return(<div className="statistiques">
         <div>
             <h1>The world's<br/> biggest healthcare platform</h1>
             <p>We work from 6 offices all over the world, bringing Docplanner<br/>
